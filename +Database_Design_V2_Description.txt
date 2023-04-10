@@ -1,0 +1,1 @@
+In V2, I would implement the new features into the schema by adding a 'name' variable to the playlist table, along with making its id unique in order to have seperate playlists. To implement the multiple account types, I could create new tables for 'free', 'standard', and 'premium' and have them all use playlist as a foreign key to link them to that table. 
